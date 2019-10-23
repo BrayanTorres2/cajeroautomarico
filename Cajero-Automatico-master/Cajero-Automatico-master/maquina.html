@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+
+    <title>Tu Carro Seguro</title>
+</head>
+
+<body id="body">
+    <!-- registrar-->
+    <div id="registros">
+       <form>
+           <h1 id="titulo">Tu Carro Seguro</h1>
+        <input type="text" placeholder="Introduce tu plata" id="placas" required/><br>
+        <p>¿Deseas ingresar otra placa?</p>
+        <input type="radio" name="gender" value="SI">SI
+        <input type="radio" name="gender" value="No">NO
+        <input type="button" value="Registrar" id="registrar" /><br>
+        </form>
+    </div>
+    
+    <!-- pagar-->
+    <div>
+    <input type="text" placeholder="Placa" id="placa" />
+    <input type="button" value="Consultar" id="consultar" />
+    <div>
+    <input type="number" placeholder="valor a pagar"  id="valor"readonly />
+    <FONT SIZE=0,1>
+        <p style="visibility: hidden" id="dinero1"></p>
+    </FONT>
+    <input type="button" value="Vueltas" id="extraer" />
+    </div>
+    <div>
+    <input type="number" placeholder="total" id="dinero" readonly  />
+    <input type="button" value="Vueltas Especificas" id="vueltas" />
+    </div>
+    <p id="resultado"></p>
+    </div>
+    <div>
+    
+    <div>
+    <img id="imcincuenta"src = "50000.png">
+    <input type="number" placeholder="Cantidad" id="cincuenta"readonly  />
+    <input type="number" placeholder="Cuantos" id="cincuentad" />
+    </div>
+    
+    <div>
+    <img id="imveintemil"src = "20000.png">
+    <input type="number" placeholder="Cantidad" id="veintemil"readonly  />
+    <input type="number" placeholder="Cuantos" id="veintemild"  />
+    </div>
+    
+    <div>
+    <img id="imdiezmil"src = "10000.jpg">
+    <input type="number" placeholder="Cantidad" id="diezmil" readonly />
+    <input type="number" placeholder="Cuantos" id="diezmild" />
+    </div>
+    
+    <div>
+    <img id="imcincomil"src = "5000.jpg">
+    <input type="number" placeholder="Cantidad" id="cincomil" readonly/>
+    <input type="number" placeholder="Cuantos" id="cincomild" />
+    </div> 
+    
+    <div>
+    <img id="imdosmil"src = "2000.jpg">
+    <input type="number" placeholder="Cantidad" id="dosmil" readonly/>
+    <input type="number" placeholder="Cuantos" id="dosmild" />
+    </div>
+    
+    <div>
+    <img id="immil"src = "1000.jpg">
+    <input type="number" placeholder="Cantidad" id="mil"readonly />
+    <input type="number" placeholder="Cuantos" id="mild" />
+    </div>
+    
+    <div>
+    <img id="imquinientos"src = "500.PNG">
+    <input type="number" placeholder="Cantidad" id="quinientos"readonly />
+    <input type="number" placeholder="Cuantos" id="quinientosd" />
+    </div>
+    
+    <div>
+    <img id="imdoscientos"src = "200.jpg">
+    <input type="number" placeholder="Cantidad" id="doscientos" readonly/>
+    <input type="imnumber" placeholder="Cuantos" id="doscientosd" />
+    </div>
+    
+    <div>
+    <img id="imcien"src = "100.jpg">
+    <input type="number" placeholder="Cantidad" id="cien" readonly/>
+    <input type="number" placeholder="Cuantos" id="ciend" />
+    </div>
+    
+    </div>
+    <script src="maquina.js"></script>
+     
+    </body>
+
+</html>
